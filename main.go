@@ -17,7 +17,7 @@ type Emp struct {
 func dbConn() (db *sql.DB) {
 	dbDriver := "mysql"
 	userName := "root"
-	password := "Beni$on123"
+	password := "******"
 	dbName := "godb"
 	db, err := sql.Open(dbDriver, userName+":"+password+"@/"+dbName)
 	if err != nil {
